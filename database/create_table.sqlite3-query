@@ -1,0 +1,10 @@
+-- database: ../database.sqlite
+
+SELECT * FROM "products";
+
+
+create table products(
+    id integer not null primary key autoincrement,
+    name text,
+    price integer
+);
